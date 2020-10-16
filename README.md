@@ -41,10 +41,47 @@ To use this package you must install LabjackPython on your environment . To do s
 
      - Input_Data\ : Folder for the input data
 
-       ​       - Settings. json : Json file for parameters of the labjack module
+       ​        1) Settings. json : Json file for parameters of the labjack module
 
      - Output_Data\ : Folder for the output data
 
 * Requirements\ : Folder for requirements files 
        -  requirements.dev : File defines outside Python dependencies in development mode
        -  requirements.prod : File defines outside Python dependencies in production mode
+
+* Examples\ : Folder for quick ready to use examples of the packages 
+
+> ​		
+
+​		Labjack_Controller/
+​		│
+​	    ├── Core/
+​		│   ├── init.py
+​		│   ├── labjack_controller.py
+​		│   └── helpers.py
+​		│ 
+​		├── data/
+​		│   ├── Input_Data/
+​		│   │	└── Settings.json
+​		│   └── Output_Data/
+​		│		└── 
+​		│ 
+​		├── tests/
+​		│   ├── Test_Labjack_controller.py
+​		│   └── test_helpers.py
+​		│
+​		├── Requirments/
+​		│   ├── requirement.dev
+​		│   └── requirement.prod
+​		│
+​		├── .github/
+​		│   └── workflows\
+​		│      └── workflow.yml
+​		│ 
+​		├── Examples/
+​		│ 
+​		├── .gitignore
+​		├── setup.py
+​		├── LICENSE
+​		└── README.md
+
